@@ -1,0 +1,30 @@
+{
+    "notes": [
+        {
+            "title": "Task 1",
+            "responsible": "Eduardo",
+            "description": "lorem ipsum 1",
+            "priority": "high"
+        },
+
+        {
+            "title": "Task 2",
+            "responsible": "Esteban",
+            "description": "lorem ipsum 2",
+            "priority": "low"
+        },
+        {
+            "title": "Task 3",
+            "responsible": "Micaela",
+            "description": "lorem ipsum 3",
+            "priority": "medium"
+        },
+        {
+            "title": "Task4",
+            "responsible": "Robert",
+            "description": "lorem ipsum 4",
+            "priority": "medium"
+        }
+
+    ]
+}

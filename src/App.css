@@ -1,18 +1,47 @@
 
 :root{
   --SecondBackgroundColor: #050a20;
+  --ThirdBackgroudColor: #fff;
   --textColor: #fff;
 }
+
+.gral-container{
+ display: flex;
+ width: 100%;
+ height: 100%;
+ align-items: center;
+ flex-direction: column;
+}
+
+.task-section{
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
+
 .header{
   background-color: var(--SecondBackgroundColor);
   height: 50px;
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .header--title{
   color: var(--textColor);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
+}
+
+.card{
+  background-color: var(--ThirdBackgroudColor);
+  border-radius: 20px;
+  height: 200px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  flex-direction: column;
 }

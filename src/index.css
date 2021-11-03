@@ -1,1 +1,11 @@
 
+:root{
+    --backgroundColor: #1335be;
+}
+
+body{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    background-color: var(--backgroundColor);
+}

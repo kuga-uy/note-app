@@ -4,6 +4,7 @@ import './App.css';
 import { Header } from './Header';
 import { Card } from './Card';
 import { notes } from './notes.json';
+import { NotesForm } from './NotesForm';
 
 class App extends React.Component{
   constructor(){
@@ -24,13 +25,19 @@ class App extends React.Component{
   
 
   return (
+    <>
+    <Header tasksCounter={this.state.notes.length}/>
     <div className="gral-container">
-         <Header/>
-         <div className="task-section">
+      <div className="form-section">
+            <NotesForm/>
+      </div>
+      <div className="task-section">
          { notes }
-         </div>
-          
+      </div>
+         
     </div>
+    
+    </>
   )
 
   }

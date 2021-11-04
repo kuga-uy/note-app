@@ -42,7 +42,7 @@ deleteCard(index){
         <>
                
         <div className="card">
-            <span className="title">{this.props.title}</span>
+            <span className="title">{task.title}</span>
             <span className="responsible">Responsible: {task.responsible}</span>
             <span className="description">Description: {task.description}</span>
             <span className="priority">Priority: {task.priority}</span>

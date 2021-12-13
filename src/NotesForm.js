@@ -49,7 +49,7 @@ class NotesForm extends React.Component{
                 <option name="Medium" id='medium-priority' >Medium</option>
                 <option name="high" id='high-priority'>High</option>
             </select>
-            <button type="sumbit">Add Note</button>
+            <button className="btn" type="sumbit">Add Note</button>
         </form>
       </>
       );

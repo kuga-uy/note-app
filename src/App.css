@@ -66,15 +66,41 @@
 .form-section{
   width: 15%;
   height: 100%;
+  
 }
 .form-container{
   height: 100%;
   background-color: var(--ThirdBackgroudColor);
   display: flex;
   flex-direction: column;
+  padding: 2rem;
 }
 
 .input{
   margin-top: 20px;
+  border: 1px solid #ccc;
   margin-bottom: 10px;
+  outline: none;
+  cursor: pointer;
+  height: 2rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+textarea{
+  max-width: 90%;
+  max-height: 200px;
+}
+.btn{
+  margin-top: 20px;
+  color: #fff;
+  background-color: var(--SecondBackgroundColor);
+  cursor: pointer;
+  height: 2rem;
+ border: none;
+  outline: none;
+}
+.btn:hover{
+  background-color: #0b1750;
 }
